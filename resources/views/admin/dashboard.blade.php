@@ -30,9 +30,7 @@
             <a href="{{ route('besoins.index') }}" class="flex items-center py-3 px-4 rounded-lg hover:bg-gray-700 transition">
                 <i class="fas fa-list mr-3"></i> Besoins
             </a>
-            <a href="#" class="flex items-center py-3 px-4 rounded-lg hover:bg-gray-700 transition">
-                <i class="fas fa-receipt mr-3"></i> Reçus
-            </a>
+            
         </nav>
 
         <form method="POST" action="{{ route('logout') }}" class="mt-auto">
@@ -48,7 +46,7 @@
         <div class="flex justify-between items-center mb-8">
             <h2 class="text-3xl font-bold text-white">Tableau de bord</h2>
             <button class="bg-gradient-to-r from-green-500 to-green-600 px-5 py-3 rounded-lg hover:from-green-600 hover:to-green-700 transition flex items-center shadow-lg">
-                <i class="fas fa-print mr-2"></i> Imprimer un reçu
+                <i class="fas fa-print mr-2"></i> Imprimer le rapport du mois
             </button>
         </div>
 
